@@ -13,6 +13,8 @@ import com.booking.mb.booking.model.Movie;
 
 @Component
 public class DTOMapper {
+	
+	//This is to check local repo works
 
 	public MovieDTO mapFromObject(Movie movie) {
 
