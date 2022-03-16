@@ -124,4 +124,8 @@ public class TutorialController {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
+	
+	private String display(){
+		return "Hello,";
+	}
 }
