@@ -125,7 +125,7 @@ public class TutorialController {
 		}
 	}
 	
-	private String display(){
-		return "Hello,";
+	private String display(String name){
+		return "Hello," + name;
 	}
 }
