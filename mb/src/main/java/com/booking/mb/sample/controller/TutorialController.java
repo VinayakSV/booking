@@ -128,4 +128,8 @@ public class TutorialController {
 	private String display(String name){
 		return "Hello," + name;
 	}
+	
+	private String test(){
+		return "test code";
+	}
 }
