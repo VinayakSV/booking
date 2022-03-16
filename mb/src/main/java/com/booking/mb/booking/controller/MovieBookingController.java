@@ -32,4 +32,7 @@ public class MovieBookingController {
 		return new ResponseEntity<>(movieService.findAll(), HttpStatus.OK);
 	}
 	
+	private String myBooking(){
+		return "This is sample code";
+	}
 }
